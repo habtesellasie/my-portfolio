@@ -34,14 +34,14 @@ export function MobileNav() {
           <MobileLink
             onOpenChange={setOpen}
             href='/'
-            className='px-2 py-2 hover:bg-gray-200 rounded'
+            className='px-2 py-2 hover:bg-gray-200 rounded hover:dark:bg-gray-800'
           >
             Home
           </MobileLink>
           <MobileLink
             onOpenChange={setOpen}
             href='/blog'
-            className='px-2 py-2 hover:bg-gray-200 rounded'
+            className='px-2 py-2 hover:bg-gray-200 rounded hover:dark:bg-gray-800'
           >
             Blog
           </MobileLink>
@@ -55,7 +55,7 @@ export function MobileNav() {
             <div
               className={cn(
                 buttonVariants({ variant: 'ghost' }),
-                'px-3 flex justify-start gap-2 w-full hover:bg-gray-200'
+                'px-3 flex justify-start gap-2 w-full hover:bg-gray-200 hover:dark:bg-gray-800'
               )}
             >
               <Icons.linkedin className='size-6' />
@@ -66,7 +66,7 @@ export function MobileNav() {
             <div
               className={cn(
                 buttonVariants({ variant: 'ghost' }),
-                'px-4 flex justify-start gap-2 w-full hover:bg-gray-200'
+                'px-4 flex justify-start gap-2 w-full hover:bg-gray-200 hover:dark:bg-gray-800'
               )}
             >
               <Icons.gitHub className='h-4 w-4' />
@@ -81,7 +81,7 @@ export function MobileNav() {
             <div
               className={cn(
                 buttonVariants({ variant: 'ghost' }),
-                'px-4 flex justify-start gap-2 w-full hover:bg-gray-200'
+                'px-4 flex justify-start gap-2 w-full hover:bg-gray-200 hover:dark:bg-gray-800'
               )}
             >
               <Icons.twitter className='h-4 w-4' />

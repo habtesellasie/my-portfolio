@@ -17,9 +17,9 @@ export function MainNav() {
       <Link
         href='/'
         className={cn(
-          'text-sm font-medium transition-colors py-2 px-4 hover:bg-gray-200 hover:text-primary rounded hidden sm:inline-block ',
+          'text-sm font-medium transition-colors py-2 px-4 hover:bg-gray-200 hover:dark:bg-gray-700 hover:text-primary rounded hidden sm:inline-block ',
           pathname === '/'
-            ? 'text-foreground bg-gray-200'
+            ? 'text-foreground bg-gray-200 dark:bg-gray-800'
             : 'text-foreground/60'
         )}
       >
@@ -28,9 +28,9 @@ export function MainNav() {
       <Link
         href='/blog'
         className={cn(
-          'text-sm font-medium transition-colors py-2 px-4 hover:bg-gray-200 hover:text-primary rounded hidden sm:inline-block ',
+          'text-sm font-medium transition-colors py-2 px-4 hover:bg-gray-200 hover:dark:bg-gray-700 hover:text-primary rounded hidden sm:inline-block ',
           pathname === '/blog'
-            ? 'text-foreground bg-gray-200 '
+            ? 'text-foreground bg-gray-200 dark:bg-gray-800 '
             : 'text-foreground/60'
         )}
       >
