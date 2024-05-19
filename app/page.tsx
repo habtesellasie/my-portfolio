@@ -10,6 +10,7 @@ import {
   Calendar,
   Download,
   Mail,
+  MoveRight,
   PhoneCall,
 } from 'lucide-react';
 import { Icons } from '@/components/icons';
@@ -107,6 +108,14 @@ export default function Home() {
                       );
                     })}
                   </div>
+                  <Link
+                    href={project.link}
+                    target='_blank'
+                    className='text-blue-500 inline-flex items-center gap-2 mt-4 hover:underline transition'
+                  >
+                    View Project
+                    <MoveRight size={20} />
+                  </Link>
                 </div>
 
                 <div className='w-full max-w-[600px] relative'>

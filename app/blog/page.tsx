@@ -2,6 +2,12 @@ import { posts } from '#site/content';
 import { PostItem } from '@/components/post-item';
 import { sortPosts } from '@/lib/utils';
 import { QueryPagination } from '@/components/query-pagination';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'My blog',
+  description: 'This is where I sometimes post my blogs',
+};
 
 const POSTS_PER_PAGE = 8;
 
@@ -46,6 +52,7 @@ export default async function BlogPage({ searchParams }: BlogPageProps) {
                   date={date}
                   title={title}
                   description={description}
+                  className=''
                 />
               </li>
             );
