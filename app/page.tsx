@@ -14,6 +14,10 @@ import {
   PhoneCall,
 } from 'lucide-react';
 import { Icons } from '@/components/icons';
+// import heroImg from '/static/hab.jpeg';
+import heroImg from '../public/static/dark-mode.png';
+
+console.log(heroImg);
 
 export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
@@ -28,7 +32,9 @@ export default function Home() {
                 width={300}
                 height={300}
                 className='w-full h-full object-cover'
-                src='/static/hab.jpeg'
+                // src='/static/hab.jpeg'
+                // src={heroImg}
+                src='/_next/static/media/dark-mode.5265df24.png'
                 // src={`${process.env.NEXT_PUBLIC_APP_URL}/static/hab.jpeg`}
                 alt='hero image'
               />
