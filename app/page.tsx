@@ -33,8 +33,8 @@ export default function Home() {
                 height={300}
                 className='w-full h-full object-cover'
                 // src='/static/hab.jpeg'
-                // src={heroImg}
-                src='/_next/static/media/dark-mode.5265df24.png'
+                src={heroImg}
+                // src='/_next/static/media/dark-mode.5265df24.png'
                 // src={`${process.env.NEXT_PUBLIC_APP_URL}/static/hab.jpeg`}
                 alt='hero image'
               />
