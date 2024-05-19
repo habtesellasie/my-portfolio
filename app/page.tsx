@@ -29,7 +29,7 @@ export default function Home() {
                 height={300}
                 className='w-full h-full object-cover'
                 // src='/static/hab.jpeg'
-                src={`${process.env.NEXT_PUBLIC_APP_URL}/hab.jpeg`}
+                src={`${process.env.NEXT_PUBLIC_APP_URL}/static/hab.jpeg`}
                 alt='hero image'
               />
             </div>
