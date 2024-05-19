@@ -28,8 +28,8 @@ export default function Home() {
                 width={300}
                 height={300}
                 className='w-full h-full object-cover'
-                src='/static/hab.jpeg'
-                // src={`${process.env.NEXT_PUBLIC_APP_URL}/static/hab.jpeg`}
+                src='/../../assets/statichab.jpeg'
+                // src={`${process.env.NEXT_PUBLIC_APP_URL}/../../assets/statichab.jpeg`}
                 alt='hero image'
               />
             </div>
@@ -274,7 +274,7 @@ export default function Home() {
             width={300}
             height={500}
             className='w-full max-w-[400px] rounded-lg object-contain '
-            src='/static/contact.jpg'
+            src='/../../assets/staticcontact.jpg'
             alt='Contact Me'
           />
 

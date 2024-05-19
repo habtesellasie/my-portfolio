@@ -19,8 +19,8 @@ export const projects = [
     description:
       'The "Apple Website Clone" project aims to replicate the user interface and functionality of the official Apple website using modern web development technologies By meticulously recreating the layout, design elements, and features of the Apple site, this project serves as an excellent opportunity to enhance your HTML, CSS, JavaScript, and React skills. Additionally, it provides hands-on experience in responsive design techniques, ensuring optimal viewing across various devices.',
     link: 'https://appledottcom.netlify.app',
-    desktopImage: '/static/project/Appledotcom.png',
-    mobileImage: '/static/project/Appledotcom-mobile.png',
+    desktopImage: '/../../assets/staticproject/Appledotcom.png',
+    mobileImage: '/../../assets/staticproject/Appledotcom-mobile.png',
     usedTechnology: ['HTML5', 'SCSS', 'React', 'Git'],
   },
   // {
@@ -28,8 +28,8 @@ export const projects = [
   //   description:
   //     'The Donkey Tube Website is to provide an immersive multimedia platform catering to audiences seeking diverse content in English and Amharic languages With a focus on seamless language selection, real-time YouTube integration, and elegant dark and light theme options, Donkey Tube aims to redefine the digital media landscape. Utilizing React.js for dynamic user interfaces and responsive design, we seamlessly implemented language selection, YouTube integration via the YouTube API, and dark/light theme options.',
   //   link: 'https://donkeytube.netlify.app',
-  //   desktopImage: '/static/project/Donkey-tube.png',
-  //   mobileImage: '/static/project/Donkey-tube-mobile.png',
+  //   desktopImage: '/../../assets/staticproject/Donkey-tube.png',
+  //   mobileImage: '/../../assets/staticproject/Donkey-tube-mobile.png',
   //   usedTechnology: [
   //     'UI/UX Design',
   //     'Figma',
@@ -45,8 +45,8 @@ export const projects = [
     description:
       "I had the opportunity to develop a comprehensive and dynamic website for Laba Media & Communications, a renowned media firm celebrated for its versatility and extensive experience across diverse sectors. Leveraging React, SCSS, SPA, and PWA technologies, I created an engaging and responsive platform that showcases Laba Media's rich history of collaborations with local and international NGOs.",
     link: 'https://labamedia.netlify.app',
-    desktopImage: '/static/project/Laba-Media.png',
-    mobileImage: '/static/project/Laba-Media-mobile.png',
+    desktopImage: '/../../assets/staticproject/Laba-Media.png',
+    mobileImage: '/../../assets/staticproject/Laba-Media-mobile.png',
     usedTechnology: ['HTML5', 'Figma', 'SCSS', 'PWA', 'SPA', 'React', 'Git'],
   },
   {
@@ -54,8 +54,8 @@ export const projects = [
     description:
       "Embark on a visual odyssey with Ephrem, where creativity meets innovation in a multimedia showcase designed to captivate and inspire Ephrem's goal for this project was to create an immersive portfolio that highlights his expertise as a cinematographer, editor, and graphics designer, while also providing a seamless and engaging user experience.",
     link: 'https://tanchiwedia.netlify.app',
-    desktopImage: '/static/project/Tanchiwedia.png',
-    mobileImage: '/static/project/Tanchiwedia-mobile.png',
+    desktopImage: '/../../assets/staticproject/Tanchiwedia.png',
+    mobileImage: '/../../assets/staticproject/Tanchiwedia-mobile.png',
     usedTechnology: ['HTML5', 'Figma', 'CSS3', 'JavaScript', 'Git'],
   },
   {
@@ -63,7 +63,7 @@ export const projects = [
     description:
       'I developed a user-friendly and interactive Simple Typing Test application utilizing HTML5, CSS3, and JavaScript. This web application is designed to help users improve their typing speed and accuracy through a clean and intuitive interface. Key features include real-time feedback, a dynamic word list, and a timer to track progress. The project demonstrates my proficiency in front-end development and my ability to create engaging and functional web applications.',
     link: 'https://testyping.netlify.app/',
-    desktopImage: '/static/project/Test-typing.png',
+    desktopImage: '/../../assets/staticproject/Test-typing.png',
     mobileImage: '',
     usedTechnology: ['HTML5', 'CSS3', 'JavaScript', 'Git'],
   },
@@ -78,7 +78,7 @@ export const certificates = [
     link: 'https://scrimba.com/certificate/uB5B7DSx/gfrontend',
     instructor: 'Scrimba',
     status: 'Completed',
-    file: '/static/certificates/frontend-developer-career-path-certificate.pdf',
+    file: '/../../assets/staticcertificates/frontend-developer-career-path-certificate.pdf',
   },
   {
     name: 'The AI Engineer Path',
@@ -88,7 +88,7 @@ export const certificates = [
     link: 'https://scrimba.com/certificate/uB5B7DSx/gaiengineer',
     instructor: 'Scrimba',
     status: 'Completed',
-    file: '/static/certificates/ai-engineer-path-certificate.pdf',
+    file: '/../../assets/staticcertificates/ai-engineer-path-certificate.pdf',
   },
   {
     name: 'Learn Responsive Web Design',
@@ -98,7 +98,7 @@ export const certificates = [
     link: 'https://scrimba.com/certificate/uB5B7DSx/gresponsive',
     instructor: 'Scrimba',
     status: 'Completed',
-    file: '/static/certificates/responsive-web-design-certificate.pdf',
+    file: '/../../assets/staticcertificates/responsive-web-design-certificate.pdf',
   },
   {
     name: 'JavaScript Deep Dive',
@@ -108,7 +108,7 @@ export const certificates = [
     link: 'https://scrimba.com/certificate/uB5B7DSx/gjavascript',
     instructor: 'Scrimba',
     status: 'Completed',
-    file: '/static/certificates/javascript-deep-dive-certificate.pdf',
+    file: '/../../assets/staticcertificates/javascript-deep-dive-certificate.pdf',
   },
   {
     name: 'Learn UI Design',
@@ -118,7 +118,7 @@ export const certificates = [
     link: 'https://scrimba.com/certificate/uB5B7DSx/gdesignbootcamp',
     instructor: 'Scrimba',
     status: 'Completed',
-    file: '/static/certificates/ui-design-certificate.pdf',
+    file: '/../../assets/staticcertificates/ui-design-certificate.pdf',
   },
 
   {
@@ -129,7 +129,7 @@ export const certificates = [
     link: 'https://coursera.org/verify/professional-cert/4MSYH4QNLDAB',
     instructor: 'Google',
     status: 'Completed',
-    file: '/static/certificates/google-ux-design.pdf',
+    file: '/../../assets/staticcertificates/google-ux-design.pdf',
   },
   {
     name: 'Meta Frontend Developer',
@@ -138,7 +138,7 @@ export const certificates = [
     link: '',
     instructor: 'Meta',
     status: 'Comming soon',
-    file: '/static/certificates/',
+    file: '/../../assets/staticcertificates/',
   },
   {
     name: 'IBM Frontend Developer',
@@ -147,7 +147,7 @@ export const certificates = [
     link: '',
     instructor: 'IBM',
     status: 'Comming soon',
-    file: '/static/certificates/',
+    file: '/../../assets/staticcertificates/',
   },
 ];
 
