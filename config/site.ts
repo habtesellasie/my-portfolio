@@ -7,7 +7,9 @@ export const siteConfig = {
     twitter: 'https://twitter.com/havecodesoft',
     linkedin: 'https://linkedin.com/in/habtesellasie',
     github: 'https://github.com/habtesellasie',
-    personalSite: '',
+    upwork:
+      'https://www.upwork.com/freelancers/~017dc4aca6746437e4?mp_source=share',
+    fiverr: 'https://www.fiverr.com/s/8b62Bo',
   },
 };
 

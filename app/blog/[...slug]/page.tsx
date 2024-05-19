@@ -2,6 +2,11 @@ import { posts } from '#site/content';
 import { MDXContent } from '@/components/mdx-components';
 import { notFound } from 'next/navigation';
 
+import '@/styles/mdx.css';
+import { MoveLeft } from 'lucide-react';
+import Link from 'next/link';
+import { cn } from '@/lib/utils';
+import { buttonVariants } from '@/components/ui/button';
 interface PostPageProps {
   params: {
     slug: string[];
@@ -30,6 +35,17 @@ export default async function PostPage({ params }: PostPageProps) {
 
   return (
     <article className='container py-6 prose dark:prose-invert max-w-3xl mx-auto'>
+      <Link
+        href='/blog'
+        className={cn(
+          buttonVariants({ variant: 'ghost', size: 'lg' }),
+          'w-fit flex items-center justify-start gap-2 mb-2 hover:text-blue-400 no-underline '
+        )}
+      >
+        <MoveLeft size={20} />
+        <span>Go back</span>
+      </Link>
+
       <h1 className='mb-2'>{post.title}</h1>
       {post.description ? (
         <p className='text-xl mt-0 text-muted-foreground'>{post.description}</p>

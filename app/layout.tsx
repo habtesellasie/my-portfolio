@@ -4,6 +4,8 @@ import './globals.css';
 import { cn } from '@/lib/utils';
 import { SiteHeader } from '@/components/site-header';
 import { Providers } from '@/components/providers';
+import { siteConfig } from '@/config/site';
+import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 
@@ -18,9 +20,31 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
+    <html lang='en' className='bg-white dark:bg-black'>
       <head>
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/apple-touch-icon.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/favicon-32x32.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='/favicon-16x16.png'
+        />
+        <link rel='manifest' href='/site.webmanifest' />
+        <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#5bbad5' />
+        <meta name='msapplication-TileColor' content='#ffffff' />
+        <meta name='theme-color' content='#000000' />
+        <title>My Portfolio</title>
       </head>
       <body
         className={cn(
@@ -32,6 +56,12 @@ export default function RootLayout({
           <div className='relative flex min-h-dvh flex-col bg-background'>
             <SiteHeader />
             <main className='flex-1'>{children}</main>
+            <footer className='border-t-gray-500 border-t-[1px] mt-4 w-full container py-4'>
+              <div className='flex gap-2'>
+                <Link href={siteConfig.links.upwork}>Upwork</Link>
+                <Link href={siteConfig.links.fiverr}>Fiverr</Link>
+              </div>
+            </footer>
           </div>
         </Providers>
       </body>
