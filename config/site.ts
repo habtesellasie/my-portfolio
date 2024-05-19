@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: 'Habte',
-  url: 'https://portfolio-project.com',
-  description: 'Nextjs 14 Portfolio website using velite, tailwind and shadcn',
+  url: 'https://myportfolio-sk6qvbh3i-habtesellasies-projects.vercel.app/',
+  description: 'Portfolio website using velite, tailwind and shadcn',
   author: 'Habtesellasie Fissha',
   links: {
     twitter: 'https://twitter.com/havecodesoft',
