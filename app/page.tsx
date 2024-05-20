@@ -5,19 +5,8 @@ import { posts } from '#site/content';
 import Link from 'next/link';
 import { PostItem } from '@/components/post-item';
 import Image from 'next/image';
-import {
-  ArrowRightIcon,
-  Calendar,
-  Download,
-  Mail,
-  MoveRight,
-  PhoneCall,
-} from 'lucide-react';
+import { Calendar, Download, Mail, MoveRight, PhoneCall } from 'lucide-react';
 import { Icons } from '@/components/icons';
-// import heroImg from '/static/hab.jpeg';
-import heroImg from '../public/static/dark-mode.png';
-
-console.log(heroImg);
 
 export default function Home() {
   const latestPosts = sortPosts(posts).slice(0, 5);
@@ -32,10 +21,7 @@ export default function Home() {
                 width={300}
                 height={300}
                 className='w-full h-full object-cover'
-                // src='/static/hab.jpeg'
-                src={heroImg}
-                // src='/_next/static/media/dark-mode.5265df24.png'
-                // src={`${process.env.NEXT_PUBLIC_APP_URL}/static/hab.jpeg`}
+                src='https://i.ibb.co/2cy3WQK/hab.jpg'
                 alt='hero image'
               />
             </div>
@@ -154,18 +140,18 @@ export default function Home() {
         <h2 className='text-2xl sm:text-3xl font-black text-center'>
           Certifications
         </h2>
+        <p className='mx-auto text-sm text-gray-400'>
+          If the verification links do not work
+          <a
+            href='mailto:havecodesoft@gmail.com'
+            className='font-bold hover:text-blue-500'
+          >
+            {' '}
+            email me
+          </a>
+          .
+        </p>
         <div className='flex lg:flex-col gap-4 flex-wrap justify-center w-fit lg:mx-auto'>
-          <p className='text-sm text-gray-400'>
-            If the verification links do not work
-            <a
-              href='mailto:havecodesoft@gmail.com'
-              className='font-bold hover:text-blue-500'
-            >
-              {' '}
-              email me
-            </a>
-            .
-          </p>
           {certificates.map((certificate, certIndex) => {
             return certificate.status === 'Completed' ? (
               <div
@@ -280,7 +266,7 @@ export default function Home() {
             width={300}
             height={500}
             className='w-full max-w-[400px] rounded-lg object-contain '
-            src='/static/contact.jpg'
+            src='https://i.ibb.co/RYX16WM/contact.jpg'
             alt='Contact Me'
           />
 
