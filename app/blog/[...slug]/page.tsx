@@ -78,10 +78,7 @@ export default async function PostPage({ params }: PostPageProps) {
     <article className='container py-6 prose dark:prose-invert max-w-3xl mx-auto'>
       <Link
         href='/blog'
-        className={cn(
-          buttonVariants({ variant: 'ghost', size: 'lg' }),
-          'w-fit flex items-center justify-start gap-2 mb-2 hover:text-blue-400 no-underline '
-        )}
+        className='w-fit mt-4 mb-5 flex items-center justify-start gap-2 hover:text-blue-400 no-underline '
       >
         <MoveLeft size={20} />
         <span>Go back</span>
