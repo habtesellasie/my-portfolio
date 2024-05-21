@@ -71,6 +71,16 @@ export const projects = [
 
 export const certificates = [
   {
+    name: 'IBM Frontend Developer',
+    course: '11',
+    description:
+      'I earned the IBM Front-End Developer Professional Certificate by completing an intensive online program on Coursera. This self-paced course, which can be completed in less than three months, is designed to prepare students for a career in front-end development. Suitable for all levels of learners, it provided me with a comprehensive understanding of HTML, CSS, JavaScript, and responsive web design. Throughout the coursework, I engaged in hands-on projects and interactive coding challenges that solidified my knowledge and honed my skills. This certification has equipped me with the practical expertise and confidence to create dynamic, visually appealing, and user-friendly web applications, positioning me for success in the competitive field of front-end development.',
+    link: 'https://coursera.org/verify/professional-cert/CU2LECUJTT7G',
+    instructor: 'IBM',
+    status: 'Completed',
+    file: 'https://i.ibb.co/7WWgxfq/IBM-Front-End-Developer.jpg',
+  },
+  {
     name: 'The Frontend Developer Career Path',
     course: '12',
     description:
@@ -91,16 +101,6 @@ export const certificates = [
     file: 'https://i.ibb.co/P9dyNvz/ai-engineer-path-certificate.jpg',
   },
   {
-    name: 'Learn Responsive Web Design',
-    course: '1',
-    description:
-      'I completed a comprehensive course in responsive web design, which elevated my skills to a professional level. This course focused on building advanced layouts and solving engaging coding challenges, ensuring a deep understanding of responsive design principles. Through hands-on projects and real-world scenarios, I learned to create websites that provide seamless user experiences across various devices and screen sizes, solidifying my expertise in responsive web design.',
-    link: 'https://scrimba.com/certificate/uB5B7DSx/gresponsive',
-    instructor: 'Scrimba',
-    status: 'Completed',
-    file: 'https://i.ibb.co/PGQNhbK/responsive-web-design-certificate.jpg',
-  },
-  {
     name: 'JavaScript Deep Dive',
     course: '1',
     description:
@@ -111,14 +111,14 @@ export const certificates = [
     file: 'https://i.ibb.co/dMbJdZW/javascript-deep-dive-certificate.jpg',
   },
   {
-    name: 'Learn UI Design',
+    name: 'Learn Responsive Web Design',
     course: '1',
     description:
-      'I completed a comprehensive UI design course created by Gary Simon, a leading online instructor in the field. This course taught me to build beautiful and well-functioning user interfaces using HTML and CSS. Packed with interactive tutorials, the course ensured that I retained and applied the knowledge effectively. Through this training, I honed my skills in crafting visually appealing and highly functional user interfaces, enhancing my ability to deliver exceptional web design projects.',
-    link: 'https://scrimba.com/certificate/uB5B7DSx/gdesignbootcamp',
+      'I completed a comprehensive course in responsive web design, which elevated my skills to a professional level. This course focused on building advanced layouts and solving engaging coding challenges, ensuring a deep understanding of responsive design principles. Through hands-on projects and real-world scenarios, I learned to create websites that provide seamless user experiences across various devices and screen sizes, solidifying my expertise in responsive web design.',
+    link: 'https://scrimba.com/certificate/uB5B7DSx/gresponsive',
     instructor: 'Scrimba',
     status: 'Completed',
-    file: 'https://i.ibb.co/cvj9HLQ/ui-design-certificate.jpg',
+    file: 'https://i.ibb.co/PGQNhbK/responsive-web-design-certificate.jpg',
   },
 
   {
@@ -132,20 +132,21 @@ export const certificates = [
     file: 'https://i.ibb.co/1KxBGY4/google-ux-design.jpg',
   },
   {
+    name: 'Learn UI Design',
+    course: '1',
+    description:
+      'I completed a comprehensive UI design course created by Gary Simon, a leading online instructor in the field. This course taught me to build beautiful and well-functioning user interfaces using HTML and CSS. Packed with interactive tutorials, the course ensured that I retained and applied the knowledge effectively. Through this training, I honed my skills in crafting visually appealing and highly functional user interfaces, enhancing my ability to deliver exceptional web design projects.',
+    link: 'https://scrimba.com/certificate/uB5B7DSx/gdesignbootcamp',
+    instructor: 'Scrimba',
+    status: 'Completed',
+    file: 'https://i.ibb.co/cvj9HLQ/ui-design-certificate.jpg',
+  },
+  {
     name: 'Meta Frontend Developer',
     course: '9',
     description: '--',
     link: '',
     instructor: 'Meta',
-    status: 'Comming soon',
-    file: '/static/certificates/',
-  },
-  {
-    name: 'IBM Frontend Developer',
-    course: '11',
-    description: '--',
-    link: '',
-    instructor: 'IBM',
     status: 'Comming soon',
     file: '/static/certificates/',
   },
