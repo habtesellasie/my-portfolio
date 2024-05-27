@@ -67,6 +67,111 @@ export const projects = [
     mobileImage: '',
     usedTechnology: ['HTML5', 'CSS3', 'JavaScript', 'Git'],
   },
+  {
+    title: 'Project Management',
+    description:
+      'TaskMaster is a robust project management platform designed to empower teams to efficiently collaborate, organize tasks, and track progress seamlessly Harnessing the power of Laravel, React, and Inertia.js, TaskForge offers a feature-rich solution with integrated login/logout functionality and user management capabilities. With TaskMaster, teams can create projects, assign tasks, and manage deadlines with ease, all while benefiting from a secure and intuitive user experience.',
+    link: 'https://github.com/habtesellasie/LaravelReactInertiaPM',
+    desktopImage:
+      'https://github.com/habtesellasie/LaravelReactInertiaPM/raw/main/dashboard.png',
+    mobileImage: '',
+    usedTechnology: [
+      'HTML5',
+      'Tailwind CSS',
+      'Front-End Development',
+      'Back-End Development',
+      'Javascript',
+      'PHP',
+      'Git',
+      'React',
+      'Inertiajs',
+      'Laravel',
+    ],
+  },
+  {
+    title: 'LaraGigs',
+    description:
+      'LaraGigs is a freelance-driven platform designed to facilitate the discovery and management of Laravel jobs and projects Developed solely by a freelance developer, LaraGigs harnesses the power of Laravel, Blade templating, and Tailwind CSS to offer a seamless and efficient solution for freelancers seeking Laravel-related opportunities. For the frontend, I utilized Blade templating and Tailwind CSS to create dynamic and visually appealing user interfaces. Tailwind CSS allowed for rapid prototyping and customization of components, ensuring a sleek and responsive design that enhances user experience.',
+    link: 'https://github.com/habtesellasie/laragigs',
+    desktopImage:
+      'https://github.com/habtesellasie/laragigs/raw/main/cover.png',
+    mobileImage: '',
+    usedTechnology: [
+      'HTML5',
+      'Tailwind CSS',
+      'Front-End Development',
+      'Back-End Development',
+      'Javascript',
+      'PHP',
+      'Blade',
+      'Git',
+      'Laravel',
+    ],
+  },
+  {
+    title: 'Blogger',
+    description:
+      'Project Bloggy is a solo endeavor aimed at simplifying the blogging experience for freelance content creators. Developed entirely by a single freelancer, this platform harnesses the power of Laravel, Tailwind CSS, HTML5, and Blade templating to offer a seamless and intuitive environment for publishing and consuming content. I leveraged my expertise in Laravel to build the backend infrastructure of Bloggy Laravel, ensuring robustness, security, and scalability. Tailwind CSS was employed for frontend design, allowing for rapid prototyping and responsive layouts. HTML5 and Blade templating facilitated dynamic content rendering and customization options.',
+    link: 'https://github.com/habtesellasie/bloggy',
+    desktopImage:
+      'https://github.com/habtesellasie/bloggy/raw/master/cover.png',
+    mobileImage: '',
+    usedTechnology: [
+      'HTML5',
+      'Tailwind CSS',
+      'Front-End Development',
+      'Back-End Development',
+      'Javascript',
+      'PHP',
+      'Blade',
+      'Git',
+      'Laravel',
+    ],
+  },
+  {
+    title: 'Event Management',
+    description:
+      "Evently is a modern event management platform designed to simplify the organization and coordination of events Built with Laravel, React, and Tailwind CSS, Evently offers a seamless and intuitive solution for event planners to manage all aspects of their events efficiently. involved harnessing the power of Laravel for backend development, creating robust APIs and data structures to support the platform's functionality. Using React, I developed a dynamic and responsive frontend interface that offers users an intuitive experience for managing events. Tailwind CSS was utilized for frontend styling, allowing for rapid development and customization of the user interface. This included designing sleek and modern components for event listings, registration forms, attendee management, and more.",
+    link: 'https://github.com/habtesellasie/evently',
+    desktopImage:
+      'https://github.com/habtesellasie/evently/raw/main/Gallery.png',
+    mobileImage: 'https://github.com/habtesellasie/evently/raw/main/guest.png',
+    usedTechnology: [
+      'HTML5',
+      'Tailwind CSS',
+      'Front-End Development',
+      'Back-End Development',
+      'Javascript',
+      'PHP',
+      'Inertiajs',
+      'React',
+      'Git',
+      'Laravel',
+    ],
+  },
+  {
+    title: 'Survey Management System',
+    description:
+      'This Survey Management System is a groundbreaking platform designed to streamline the creation, distribution, and analysis of surveys Leveraging the power of React, Laravel, and Tailwind CSS, The Survey Management System offers a seamless and intuitive solution for conducting surveys with ease. The goal is to develop an innovative survey management platform that simplifies the process of creating, distributing, and analyzing surveys.  I built a secure and scalable backend system capable of handling survey creation, response collection, and report generation. Tailwind CSS was used for frontend styling, allowing for rapid development and customization of the user interface. This included designing sleek and responsive components for survey creation forms, response collection pages, and result visualization.',
+    link: 'https://github.com/habtesellasie/survey-react_laravel',
+    desktopImage:
+      'https://github.com/habtesellasie/survey-react_laravel/raw/main/surveys.png',
+
+    mobileImage:
+      'https://github.com/habtesellasie/survey-react_laravel/raw/main/dashboard.png',
+    usedTechnology: [
+      'HTML5',
+      'Tailwind CSS',
+      'Front-End Development',
+      'Back-End Development',
+      'Javascript',
+      'PHP',
+      'React',
+      'Inertiajs',
+      'Git',
+      'Laravel',
+    ],
+  },
 ];
 
 export const certificates = [

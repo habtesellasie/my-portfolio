@@ -4,7 +4,7 @@ import { build } from 'velite';
 export default {
   // othor next config here...
   images: {
-    domains: ['i.ibb.co'],
+    domains: ['i.ibb.co', 'github.com'],
   },
   webpack: (config) => {
     config.plugins.push(new VeliteWebpackPlugin());
