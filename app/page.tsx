@@ -14,7 +14,8 @@ export default function Home() {
     <>
       <section className='space-y-6 pb-8 pt-6 md:pb-12 md:mt-10 lg:py-32 mb-10'>
         <div className='relative container flex flex-col gap-4 text-center bg-transparent'>
-          <div className='bg-[#df5b73] -translate-x-1/2 left-1/2 md:size-[450px] size-[300px] blur-[200px]  md:blur-[400px] -z-2 rounded-full absolute'></div>
+          <div className='bg-[#df5b73] -translate-x-1/2 left-1/2 md:size-[450px] size-[300px] blur-[100px]  md:blur-[200px] -z-2 rounded-full absolute'></div>
+          <div className='bg-[#61DBFB] -translate-x-1/2 right-1/2 md:size-[450px] size-[300px] blur-[100px]  md:dark:blur-[400px] md:blur-[150px] -z-2 rounded-full absolute'></div>
           <div className='relative z-2'>
             <div className='size-[150px] rounded-full overflow-hidden mx-auto my-4'>
               <Image

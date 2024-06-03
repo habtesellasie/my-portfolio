@@ -23,23 +23,42 @@ export const projects = [
     mobileImage: 'https://i.ibb.co/T4Vvryb/Appledotcom-mobile.png',
     usedTechnology: ['HTML5', 'SCSS', 'React', 'Git'],
   },
-  // {
-  //   title: 'Donkey Tube',
-  //   description:
-  //     'The Donkey Tube Website is to provide an immersive multimedia platform catering to audiences seeking diverse content in English and Amharic languages With a focus on seamless language selection, real-time YouTube integration, and elegant dark and light theme options, Donkey Tube aims to redefine the digital media landscape. Utilizing React.js for dynamic user interfaces and responsive design, we seamlessly implemented language selection, YouTube integration via the YouTube API, and dark/light theme options.',
-  //   link: 'https://donkeytube.netlify.app',
-  //   desktopImage: 'https://i.ibb.co/jkCTRLr/Donkey-tube.png',
-  //   mobileImage: 'https://i.ibb.co/N3FdP1J/Donkey-tube-mobile.png',
-  //   usedTechnology: [
-  //     'UI/UX Design',
-  //     'Figma',
-  //     'HTML5',
-  //     'SCSS',
-  //     'React',
-  //     'Youtube api',
-  //     'Git',
-  //   ],
-  // },
+  {
+    title: 'Donkey Tube',
+    description:
+      'The Donkey Tube Website is to provide an immersive multimedia platform catering to audiences seeking diverse content in English and Amharic languages With a focus on seamless language selection, real-time YouTube integration, and elegant dark and light theme options, Donkey Tube aims to redefine the digital media landscape. Utilizing React.js for dynamic user interfaces and responsive design, I seamlessly implemented language selection, YouTube integration via the YouTube API, and dark/light theme options.',
+    link: 'https://donkeytube.netlify.app',
+    desktopImage: 'https://i.ibb.co/jkCTRLr/Donkey-tube.png',
+    mobileImage: 'https://i.ibb.co/N3FdP1J/Donkey-tube-mobile.png',
+    usedTechnology: [
+      'UI/UX Design',
+      'Figma',
+      'HTML5',
+      'SCSS',
+      'React',
+      'Youtube api',
+      'Git',
+    ],
+  },
+  {
+    title: 'Interactive Code Playground',
+    description:
+      "This is an interactive code playground that allows users to write, test, and save JavaScript, HTML, and CSS code in real-time. It features a built-in browser for previewing code output and a console for debugging. The playground also supports Progressive Web Apps (PWA), making it accessible and easy to use on any device. One of its key features is the ability to save your written code into your local storage, allowing you to easily continue where you left off. It's a great tool for anyone looking to learn web development or test out new ideas.",
+    link: 'https://codetechfusiony.netlify.app/',
+    desktopImage:
+      'https://i.ibb.co/k9dYyc7/Screenshot-2024-06-03-at-11-51-14-in-the-morning.png',
+    mobileImage:
+      'https://i.ibb.co/7yq3Ff3/Screenshot-2024-06-03-at-11-52-06-in-the-morning.png',
+    usedTechnology: [
+      'HTML5',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Monaco Editor',
+      'Git',
+      'PWA',
+    ],
+  },
   {
     title: 'Laba Media',
     description:
@@ -64,7 +83,8 @@ export const projects = [
       'I developed a user-friendly and interactive Simple Typing Test application utilizing HTML5, CSS3, and JavaScript. This web application is designed to help users improve their typing speed and accuracy through a clean and intuitive interface. Key features include real-time feedback, a dynamic word list, and a timer to track progress. The project demonstrates my proficiency in front-end development and my ability to create engaging and functional web applications.',
     link: 'https://testyping.netlify.app/',
     desktopImage: 'https://i.ibb.co/cCTZXsc/Test-typing.png',
-    mobileImage: '',
+    mobileImage:
+      'https://i.ibb.co/Bc7nt9j/Screenshot-2024-06-03-at-12-01-34-in-the-afternoon.png',
     usedTechnology: ['HTML5', 'CSS3', 'JavaScript', 'Git'],
   },
   {
