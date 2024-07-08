@@ -22,7 +22,7 @@ export default function Home() {
                 width={300}
                 height={300}
                 className='w-full h-full object-cover'
-                src='https://i.ibb.co/2cy3WQK/hab.jpg'
+                src='https://i.ibb.co/fxqww3R/pp2-Large.jpg'
                 alt='hero image'
               />
             </div>
@@ -152,31 +152,36 @@ export default function Home() {
           </a>
           .
         </p>
-        <div className='flex lg:flex-col gap-4 flex-wrap justify-center w-fit lg:mx-auto'>
+        <div className='max-w-[90rem] mx-auto sm:flex max-sm:space-y-4 gap-4 justify-center items-stretch flex-wrap mt-10'>
           {certificates.map((certificate, certIndex) => {
             return certificate.status === 'Completed' ? (
               <div
                 key={certIndex}
-                className='max-w-[420px] lg:max-w-[unset] shadow-lg dark:shadow-gray-200/20 ring-1 rounded-lg ring-gray-200 px-4 py-2 lg:flex lg:gap-4 lg:items-start lg:py-4 '
+                className='hover:scale-[1.02] transition bg-gray-100 dark:bg-gray-800/60 border-2 border-gray-400 dark:border-gray-700 rounded-lg max-sm:w-full'
               >
-                <h3 className='inline-flex gap-2 my-2 text-balance items-center lg:w-full'>
-                  {<Icons.certification_badge className='size-14' />}
-                  <span className='inline-flex flex-col'>
-                    <p className='text-xl font-bold inline-block lg:max-w-[230px] w-full'>
-                      {certificate.name}
-                    </p>
-                    <span className='text-md font-medium text-gray-600 dark:text-gray-300'>
-                      By {certificate.instructor}
-                    </span>
+                <div className='p-2'>
+                  <Image
+                    src={certificate.file}
+                    alt=''
+                    className='sm:min-w-[300px] w-full object-cover rounded-md'
+                    width={100}
+                    height={24}
+                    priority
+                  />
+                </div>
+                <div className='flex flex-col px-4 py-2 gap-2'>
+                  <p className='font-bold inline-block lg:max-w-[240px] w-full'>
+                    {certificate.name}{' '}
+                  </p>
+                  <span className='text-md font-medium text-gray-600 dark:text-gray-300'>
+                    By {certificate.instructor}
                   </span>
-                </h3>
-                <div className='max-w-[600px]'>
-                  <p className='text-pretty'>{certificate.description}</p>
-                  <div className='flex items-center mt-4 mb-2 gap-4'>
+
+                  <div className='flex justify-between'>
                     <Link
                       href={certificate.link}
                       target='_blank'
-                      className='text-blue-500 dark:text-blue-400 hover:underline transition underline-offset-2 inline-block lg:mb-0'
+                      className='text-blue-500 dark:text-blue-400 hover:underline transition underline-offset-2 lg:mb-0 inline w-fit'
                     >
                       verification link
                     </Link>
@@ -195,27 +200,26 @@ export default function Home() {
                 </div>
               </div>
             ) : (
-              <div className='max-w-[420px] lg:max-w-[100%] shadow-lg dark:shadow-gray-200/20 ring-1 rounded-lg ring-gray-200 px-4 py-2 lg:flex lg:gap-4 lg:items-start lg:py-4'>
-                <h3 className='inline-flex gap-2 my-2 text-balance items-center lg:w-full'>
-                  {<Icons.certification_badge className='size-14' />}
-                  <span className='inline-flex flex-col'>
-                    <p className='text-xl font-bold inline-block lg:max-w-[230px] w-full'>
-                      {certificate.name}
-                    </p>
-                    <span className='text-md font-medium text-gray-600 dark:text-gray-300'>
-                      By {certificate.instructor}
-                    </span>
-                  </span>
-                </h3>
-                <div className='max-w-[600px] w-full'>
-                  <div className='inline-flex flex-col gap-2 w-full'>
-                    <p className='relative block rounded-md w-full h-[200px] lg:w-[600px] dark:bg-gray-700 bg-gray-200'>
+              <div
+                key={certIndex}
+                className='hover:scale-[1.02] transition bg-gray-100 dark:bg-gray-800/60 border-2 border-gray-400 dark:border-gray-700 rounded-lg max-sm:w-full'
+              >
+                <div className='p-2'>
+                  <div className='sm:min-w-[300px] w-full object-cover rounded-md'>
+                    <p className='relative block rounded-md w-full h-[200px] lg:w-full dark:bg-gray-700 bg-gray-200'>
                       <span className='inline-block absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 -rotate-[20deg] font-bold dark:text-gray-400 text-gray-400'>
                         Comming Soon . . .
                       </span>
                     </p>
                   </div>
-                  <p className='text-blue-500 dark:text-blue-400 hover:underline transition underline-offset-2 inline-block mt-2 mb-2 lg:mb-0 bg-blue-500 w-32 h-3 rounded-full'></p>
+                </div>
+                <div className='flex flex-col px-4 py-2 gap-2'>
+                  <p className='font-bold inline-block lg:max-w-[240px] w-full'>
+                    {certificate.name}{' '}
+                  </p>
+                  <span className='text-md font-medium text-gray-600 dark:text-gray-300'>
+                    By {certificate.instructor}
+                  </span>
                 </div>
               </div>
             );
@@ -263,13 +267,13 @@ export default function Home() {
           Contact me
         </h2>
         <div className='sm:flex justify-center mx-auto items-center gap-5'>
-          <Image
+          {/* <Image
             width={300}
             height={500}
             className='w-full max-w-[400px] rounded-lg object-contain '
             src='https://i.ibb.co/RYX16WM/contact.jpg'
             alt='Contact Me'
-          />
+          /> */}
 
           <div className='flex flex-col gap-2 sm:mt-0 mt-4 max-sm:items-center'>
             <a
