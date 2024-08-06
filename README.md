@@ -35,13 +35,13 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/habtesellasie/portfolio_project
+   git clone https://github.com/habtesellasie/my-portfolio
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd portfolio_project
+   cd my-portfolio
    ```
 
 3. Install the dependencies:

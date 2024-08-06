@@ -33,11 +33,12 @@ export default function Home() {
               A skilled web developer with expertise in{' '}
               <span className='dark:text-[#61DBFB] text-[#287588] font-bold'>
                 React
-              </span>
-              , <span className='text-[#F55247] font-bold'>Laravel</span>, and{' '}
+              </span>{' '}
+              and <span className='text-[#F55247] font-bold'>Laravel</span>
+              {/* , and{' '}
               <span className='bg-gradient-to-r dark:to-[#F55247] to-[#F55247] dark:from-[#61DBFB] from-[#287588] inline-block text-transparent bg-clip-text font-bold'>
                 UI/UX design
-              </span>
+              </span> */}
               . I specialize in creating intuitive, dynamic, and visually
               compelling web applications. My goal is to turn complex problems
               into elegant digital solutions that drive success.
@@ -47,13 +48,12 @@ export default function Home() {
             </p>
             <div className='flex flex-col gap-4 justify-center sm:flex-row'>
               <Link
-                href='/blog'
-                className={cn(
-                  buttonVariants({ size: 'lg' }),
-                  'w-full sm:w-fit'
-                )}
+                href={siteConfig.links.linkedin}
+                target='_blank'
+                rel='noreferrer'
+                className='flex items-center justify-center px-4 text-white py-2 rounded hover:bg-[#0a66c2df] bg-[#0a66c2]'
               >
-                View my blog
+                Follow me on linkedin
               </Link>
               <Link
                 href={siteConfig.links.github}
