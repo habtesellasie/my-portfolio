@@ -11,6 +11,7 @@ export const siteConfig = {
       'https://www.upwork.com/freelancers/~017dc4aca6746437e4?mp_source=share',
     fiverr: 'https://www.fiverr.com/s/8b62Bo',
     telegram: 'https://t.me/haabbte',
+    email: 'havecodesoft@gmail.com',
   },
 };
 
