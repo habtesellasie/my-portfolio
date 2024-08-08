@@ -4,194 +4,200 @@ export const siteConfig = {
   description: 'Portfolio website using velite, tailwind and shadcn',
   author: 'Habtesellasie Fissha',
   links: {
-    twitter: 'https://twitter.com/havecodesoft',
+    x: 'https://x.com/havecodesoft',
     linkedin: 'https://linkedin.com/in/habtesellasie',
     github: 'https://github.com/habtesellasie',
     upwork:
       'https://www.upwork.com/freelancers/~017dc4aca6746437e4?mp_source=share',
     fiverr: 'https://www.fiverr.com/s/8b62Bo',
+    telegram: 'https://t.me/haabbte',
   },
 };
 
 export const projects = [
   {
+    title: 'TVET Student Management System',
+    description: `The TVET Student Management System is a platform for managing TVET institute functions. Trainees view grades, use AI, and take exams. Trainers grade, create exams, and use AI tools. Record Officers manage batches, placements, and applications. IT Supporters handle support requests and FAQs. Sector Heads assign trainers, manage courses, and regrade. Admins manage users, sectors, and occupations. The system uses advanced technologies for a seamless experience.`,
+    link: '',
+    mobileImage:
+      'https://i.ibb.co/HDjppLm/Screenshot-2024-08-07-at-8-15-10-in-the-evening.png',
+    desktopImage:
+      'https://i.ibb.co/VBxS5Gx/Screenshot-2024-08-07-at-8-14-24-in-the-evening.png',
+    usedTechnology: ['Laravel', 'React', 'Tailwind', 'Inertiajs', 'Git'],
+  },
+  {
     title: 'Apple Website Clone',
     description:
-      'The "Apple Website Clone" project aims to replicate the user interface and functionality of the official Apple website using modern web development technologies By meticulously recreating the layout, design elements, and features of the Apple site, this project serves as an excellent opportunity to enhance your HTML, CSS, JavaScript, and React skills. Additionally, it provides hands-on experience in responsive design techniques, ensuring optimal viewing across various devices.',
+      'The "Apple Website Clone" project replicates the Apple website using modern web technologies. It enhances HTML, CSS, JavaScript, and React skills, and provides experience in responsive design.',
     link: 'https://appledottcom.netlify.app',
     desktopImage: 'https://i.ibb.co/b6kHHNf/Appledotcom.png',
     mobileImage: 'https://i.ibb.co/T4Vvryb/Appledotcom-mobile.png',
-    usedTechnology: ['HTML5', 'SCSS', 'React', 'Git'],
+    usedTechnology: ['SCSS', 'React', 'Git'],
   },
   {
     title: 'Donkey Tube',
     description:
-      'The Donkey Tube Website is to provide an immersive multimedia platform catering to audiences seeking diverse content in English and Amharic languages With a focus on seamless language selection, real-time YouTube integration, and elegant dark and light theme options, Donkey Tube aims to redefine the digital media landscape. Utilizing React.js for dynamic user interfaces and responsive design, I seamlessly implemented language selection, YouTube integration via the YouTube API, and dark/light theme options.',
+      'Donkey Tube is a multimedia platform offering content in English and Amharic. It features language selection, YouTube integration, and dark/light themes using React.js.',
     link: 'https://donkeytube.netlify.app',
     desktopImage: 'https://i.ibb.co/jkCTRLr/Donkey-tube.png',
     mobileImage: 'https://i.ibb.co/N3FdP1J/Donkey-tube-mobile.png',
-    usedTechnology: [
-      'UI/UX Design',
-      'Figma',
-      'HTML5',
-      'SCSS',
-      'React',
-      'Youtube api',
-      'Git',
-    ],
+    usedTechnology: ['SCSS', 'React', 'Youtube API', 'Git'],
+  },
+  {
+    title: 'Miran Creative Studios',
+    description:
+      'The Miran Creative Studios website showcases services and expertise with a trendy interface. Built with Next.js and Tailwind CSS, it aims to redefine creative services.',
+    link: 'https://miran.et',
+    desktopImage:
+      'https://i.ibb.co/LdQwPvv/Screenshot-2024-08-07-at-8-47-31-in-the-evening.png',
+    mobileImage:
+      'https://i.ibb.co/b5BXg9H/Screenshot-2024-08-07-at-8-48-13-in-the-evening.png',
+    usedTechnology: ['Tailwind', 'NextJS', 'Git'],
   },
   {
     title: 'Interactive Code Playground',
     description:
-      "This is an interactive code playground that allows users to write, test, and save JavaScript, HTML, and CSS code in real-time. It features a built-in browser for previewing code output and a console for debugging. The playground also supports Progressive Web Apps (PWA), making it accessible and easy to use on any device. One of its key features is the ability to save your written code into your local storage, allowing you to easily continue where you left off. It's a great tool for anyone looking to learn web development or test out new ideas.",
+      'An interactive code playground for writing, testing, and saving JavaScript, HTML, and CSS code in real-time. Features a built-in browser, console, and PWA support.',
     link: 'https://codetechfusiony.netlify.app/',
     desktopImage:
       'https://i.ibb.co/k9dYyc7/Screenshot-2024-06-03-at-11-51-14-in-the-morning.png',
     mobileImage:
       'https://i.ibb.co/7yq3Ff3/Screenshot-2024-06-03-at-11-52-06-in-the-morning.png',
-    usedTechnology: [
-      'HTML5',
-      'CSS',
-      'JavaScript',
-      'React',
-      'Monaco Editor',
-      'Git',
-      'PWA',
-    ],
+    usedTechnology: ['React', 'Monaco Editor', 'Git'],
   },
   {
-    title: 'Laba Media',
+    title: 'Basic Typing Test Web App',
     description:
-      "I had the opportunity to develop a comprehensive and dynamic website for Laba Media & Communications, a renowned media firm celebrated for its versatility and extensive experience across diverse sectors. Leveraging React, SCSS, SPA, and PWA technologies, I created an engaging and responsive platform that showcases Laba Media's rich history of collaborations with local and international NGOs.",
-    link: 'https://labamedia.netlify.app',
-    desktopImage: 'https://i.ibb.co/y4Yt3bZ/Laba-Media.png',
-    mobileImage: 'https://i.ibb.co/7NRZJqz/Laba-Media-mobile.png',
-    usedTechnology: ['HTML5', 'Figma', 'SCSS', 'PWA', 'SPA', 'React', 'Git'],
-  },
-  {
-    title: 'Cinematographer Portfolio',
-    description:
-      "Embark on a visual odyssey with Ephrem, where creativity meets innovation in a multimedia showcase designed to captivate and inspire Ephrem's goal for this project was to create an immersive portfolio that highlights his expertise as a cinematographer, editor, and graphics designer, while also providing a seamless and engaging user experience.",
-    link: 'https://tanchiwedia.netlify.app',
-    desktopImage: 'https://i.ibb.co/k5GLVBk/Tanchiwedia.png',
-    mobileImage: 'https://i.ibb.co/BTZBfgm/Tanchiwedia-mobile.png',
-    usedTechnology: ['HTML5', 'Figma', 'CSS3', 'JavaScript', 'Git'],
-  },
-  {
-    title: 'Basic Typing Test',
-    description:
-      'I developed a user-friendly and interactive Simple Typing Test application utilizing HTML5, CSS3, and JavaScript. This web application is designed to help users improve their typing speed and accuracy through a clean and intuitive interface. Key features include real-time feedback, a dynamic word list, and a timer to track progress. The project demonstrates my proficiency in front-end development and my ability to create engaging and functional web applications.',
+      'A Simple Typing Test application to improve typing speed and accuracy. Features real-time feedback, dynamic word list, and a timer.',
     link: 'https://testyping.netlify.app/',
     desktopImage: 'https://i.ibb.co/cCTZXsc/Test-typing.png',
     mobileImage:
       'https://i.ibb.co/Bc7nt9j/Screenshot-2024-06-03-at-12-01-34-in-the-afternoon.png',
-    usedTechnology: ['HTML5', 'CSS3', 'JavaScript', 'Git'],
+    usedTechnology: ['CSS3', 'JavaScript', 'Git'],
   },
   {
-    title: 'Project Management',
+    title: 'Laba Media',
     description:
-      'TaskMaster is a robust project management platform designed to empower teams to efficiently collaborate, organize tasks, and track progress seamlessly Harnessing the power of Laravel, React, and Inertia.js, TaskForge offers a feature-rich solution with integrated login/logout functionality and user management capabilities. With TaskMaster, teams can create projects, assign tasks, and manage deadlines with ease, all while benefiting from a secure and intuitive user experience.',
-    link: 'https://github.com/habtesellasie/LaravelReactInertiaPM',
-    desktopImage:
-      'https://github.com/habtesellasie/LaravelReactInertiaPM/raw/main/dashboard.png',
-    mobileImage: '',
-    usedTechnology: [
-      'HTML5',
-      'Tailwind CSS',
-      'Front-End Development',
-      'Back-End Development',
-      'Javascript',
-      'PHP',
-      'Git',
-      'React',
-      'Inertiajs',
-      'Laravel',
-    ],
+      'A dynamic website for Laba Media & Communications, showcasing their history and collaborations. Built with React, SCSS, SPA, and PWA technologies.',
+    link: 'https://labamedia.netlify.app',
+    desktopImage: 'https://i.ibb.co/y4Yt3bZ/Laba-Media.png',
+    mobileImage: 'https://i.ibb.co/7NRZJqz/Laba-Media-mobile.png',
+    usedTechnology: ['SCSS', 'SPA', 'React', 'Git'],
   },
-  {
-    title: 'LaraGigs',
-    description:
-      'LaraGigs is a freelance-driven platform designed to facilitate the discovery and management of Laravel jobs and projects Developed solely by a freelance developer, LaraGigs harnesses the power of Laravel, Blade templating, and Tailwind CSS to offer a seamless and efficient solution for freelancers seeking Laravel-related opportunities. For the frontend, I utilized Blade templating and Tailwind CSS to create dynamic and visually appealing user interfaces. Tailwind CSS allowed for rapid prototyping and customization of components, ensuring a sleek and responsive design that enhances user experience.',
-    link: 'https://github.com/habtesellasie/laragigs',
-    desktopImage:
-      'https://github.com/habtesellasie/laragigs/raw/main/cover.png',
-    mobileImage: '',
-    usedTechnology: [
-      'HTML5',
-      'Tailwind CSS',
-      'Front-End Development',
-      'Back-End Development',
-      'Javascript',
-      'PHP',
-      'Blade',
-      'Git',
-      'Laravel',
-    ],
-  },
-  {
-    title: 'Blogger',
-    description:
-      'Project Bloggy is a solo endeavor aimed at simplifying the blogging experience for freelance content creators. Developed entirely by a single freelancer, this platform harnesses the power of Laravel, Tailwind CSS, HTML5, and Blade templating to offer a seamless and intuitive environment for publishing and consuming content. I leveraged my expertise in Laravel to build the backend infrastructure of Bloggy Laravel, ensuring robustness, security, and scalability. Tailwind CSS was employed for frontend design, allowing for rapid prototyping and responsive layouts. HTML5 and Blade templating facilitated dynamic content rendering and customization options.',
-    link: 'https://github.com/habtesellasie/bloggy',
-    desktopImage:
-      'https://github.com/habtesellasie/bloggy/raw/master/cover.png',
-    mobileImage: '',
-    usedTechnology: [
-      'HTML5',
-      'Tailwind CSS',
-      'Front-End Development',
-      'Back-End Development',
-      'Javascript',
-      'PHP',
-      'Blade',
-      'Git',
-      'Laravel',
-    ],
-  },
-  {
-    title: 'Event Management',
-    description:
-      "Evently is a modern event management platform designed to simplify the organization and coordination of events Built with Laravel, React, and Tailwind CSS, Evently offers a seamless and intuitive solution for event planners to manage all aspects of their events efficiently. involved harnessing the power of Laravel for backend development, creating robust APIs and data structures to support the platform's functionality. Using React, I developed a dynamic and responsive frontend interface that offers users an intuitive experience for managing events. Tailwind CSS was utilized for frontend styling, allowing for rapid development and customization of the user interface. This included designing sleek and modern components for event listings, registration forms, attendee management, and more.",
-    link: 'https://github.com/habtesellasie/evently',
-    desktopImage:
-      'https://github.com/habtesellasie/evently/raw/main/Gallery.png',
-    mobileImage: 'https://github.com/habtesellasie/evently/raw/main/guest.png',
-    usedTechnology: [
-      'HTML5',
-      'Tailwind CSS',
-      'Front-End Development',
-      'Back-End Development',
-      'Javascript',
-      'PHP',
-      'Inertiajs',
-      'React',
-      'Git',
-      'Laravel',
-    ],
-  },
-  {
-    title: 'Survey Management System',
-    description:
-      'This Survey Management System is a groundbreaking platform designed to streamline the creation, distribution, and analysis of surveys Leveraging the power of React, Laravel, and Tailwind CSS, The Survey Management System offers a seamless and intuitive solution for conducting surveys with ease. The goal is to develop an innovative survey management platform that simplifies the process of creating, distributing, and analyzing surveys.  I built a secure and scalable backend system capable of handling survey creation, response collection, and report generation. Tailwind CSS was used for frontend styling, allowing for rapid development and customization of the user interface. This included designing sleek and responsive components for survey creation forms, response collection pages, and result visualization.',
-    link: 'https://github.com/habtesellasie/survey-react_laravel',
-    desktopImage:
-      'https://github.com/habtesellasie/survey-react_laravel/raw/main/surveys.png',
+  // {
+  //   title: 'Cinematographer Portfolio',
+  //   description:
+  //     "Embark on a visual odyssey with Ephrem, where creativity meets innovation in a multimedia showcase designed to captivate and inspire Ephrem's goal for this project was to create an immersive portfolio that highlights his expertise as a cinematographer, editor, and graphics designer, while also providing a seamless and engaging user experience.",
+  //   link: 'https://tanchiwedia.netlify.app',
+  //   desktopImage: 'https://i.ibb.co/k5GLVBk/Tanchiwedia.png',
+  //   mobileImage: 'https://i.ibb.co/BTZBfgm/Tanchiwedia-mobile.png',
+  //   usedTechnology: [  'CSS3', 'JavaScript', 'Git'],
+  // },
+  // {
+  //   title: 'Project Management',
+  //   description:
+  //     'TaskMaster is a robust project management platform designed to empower teams to efficiently collaborate, organize tasks, and track progress seamlessly Harnessing the power of Laravel, React, and Inertia.js, TaskForge offers a feature-rich solution with integrated login/logout functionality and user management capabilities. With TaskMaster, teams can create projects, assign tasks, and manage deadlines with ease, all while benefiting from a secure and intuitive user experience.',
+  //   link: 'https://github.com/habtesellasie/LaravelReactInertiaPM',
+  //   desktopImage:
+  //     'https://github.com/habtesellasie/LaravelReactInertiaPM/raw/main/dashboard.png',
+  //   mobileImage: '',
+  //   usedTechnology: [
+  //
+  //     'Tailwind CSS',
+  //     'Front-End Development',
+  //     'Back-End Development',
+  //     'Javascript',
+  //     'PHP',
+  //     'Git',
+  //     'React',
+  //     'Inertiajs',
+  //     'Laravel',
+  //   ],
+  // },
+  // {
+  //   title: 'LaraGigs',
+  //   description:
+  //     'LaraGigs is a freelance-driven platform designed to facilitate the discovery and management of Laravel jobs and projects Developed solely by a freelance developer, LaraGigs harnesses the power of Laravel, Blade templating, and Tailwind CSS to offer a seamless and efficient solution for freelancers seeking Laravel-related opportunities. For the frontend, I utilized Blade templating and Tailwind CSS to create dynamic and visually appealing user interfaces. Tailwind CSS allowed for rapid prototyping and customization of components, ensuring a sleek and responsive design that enhances user experience.',
+  //   link: 'https://github.com/habtesellasie/laragigs',
+  //   desktopImage:
+  //     'https://github.com/habtesellasie/laragigs/raw/main/cover.png',
+  //   mobileImage: '',
+  //   usedTechnology: [
+  //
+  //     'Tailwind CSS',
+  //     'Front-End Development',
+  //     'Back-End Development',
+  //     'Javascript',
+  //     'PHP',
+  //     'Blade',
+  //     'Git',
+  //     'Laravel',
+  //   ],
+  // },
+  // {
+  //   title: 'Blogger',
+  //   description:
+  //     'Project Bloggy is a solo endeavor aimed at simplifying the blogging experience for freelance content creators. Developed entirely by a single freelancer, this platform harnesses the power of Laravel, Tailwind CSS, HTML5, and Blade templating to offer a seamless and intuitive environment for publishing and consuming content. I leveraged my expertise in Laravel to build the backend infrastructure of Bloggy Laravel, ensuring robustness, security, and scalability. Tailwind CSS was employed for frontend design, allowing for rapid prototyping and responsive layouts. HTML5 and Blade templating facilitated dynamic content rendering and customization options.',
+  //   link: 'https://github.com/habtesellasie/bloggy',
+  //   desktopImage:
+  //     'https://github.com/habtesellasie/bloggy/raw/master/cover.png',
+  //   mobileImage: '',
+  //   usedTechnology: [
+  //
+  //     'Tailwind CSS',
+  //     'Front-End Development',
+  //     'Back-End Development',
+  //     'Javascript',
+  //     'PHP',
+  //     'Blade',
+  //     'Git',
+  //     'Laravel',
+  //   ],
+  // },
+  // {
+  //   title: 'Event Management',
+  //   description:
+  //     "Evently is a modern event management platform designed to simplify the organization and coordination of events Built with Laravel, React, and Tailwind CSS, Evently offers a seamless and intuitive solution for event planners to manage all aspects of their events efficiently. involved harnessing the power of Laravel for backend development, creating robust APIs and data structures to support the platform's functionality. Using React, I developed a dynamic and responsive frontend interface that offers users an intuitive experience for managing events. Tailwind CSS was utilized for frontend styling, allowing for rapid development and customization of the user interface. This included designing sleek and modern components for event listings, registration forms, attendee management, and more.",
+  //   link: 'https://github.com/habtesellasie/evently',
+  //   desktopImage:
+  //     'https://github.com/habtesellasie/evently/raw/main/Gallery.png',
+  //   mobileImage: 'https://github.com/habtesellasie/evently/raw/main/guest.png',
+  //   usedTechnology: [
+  //
+  //     'Tailwind CSS',
+  //     'Front-End Development',
+  //     'Back-End Development',
+  //     'Javascript',
+  //     'PHP',
+  //     'Inertiajs',
+  //     'React',
+  //     'Git',
+  //     'Laravel',
+  //   ],
+  // },
+  // {
+  //   title: 'Survey Management System',
+  //   description:
+  //     'This Survey Management System is a groundbreaking platform designed to streamline the creation, distribution, and analysis of surveys Leveraging the power of React, Laravel, and Tailwind CSS, The Survey Management System offers a seamless and intuitive solution for conducting surveys with ease. The goal is to develop an innovative survey management platform that simplifies the process of creating, distributing, and analyzing surveys.  I built a secure and scalable backend system capable of handling survey creation, response collection, and report generation. Tailwind CSS was used for frontend styling, allowing for rapid development and customization of the user interface. This included designing sleek and responsive components for survey creation forms, response collection pages, and result visualization.',
+  //   link: 'https://github.com/habtesellasie/survey-react_laravel',
+  //   desktopImage:
+  //     'https://github.com/habtesellasie/survey-react_laravel/raw/main/surveys.png',
 
-    mobileImage:
-      'https://github.com/habtesellasie/survey-react_laravel/raw/main/dashboard.png',
-    usedTechnology: [
-      'HTML5',
-      'Tailwind CSS',
-      'Front-End Development',
-      'Back-End Development',
-      'Javascript',
-      'PHP',
-      'React',
-      'Inertiajs',
-      'Git',
-      'Laravel',
-    ],
-  },
+  //   mobileImage:
+  //     'https://github.com/habtesellasie/survey-react_laravel/raw/main/dashboard.png',
+  //   usedTechnology: [
+  //
+  //     'Tailwind CSS',
+  //     'Front-End Development',
+  //     'Back-End Development',
+  //     'Javascript',
+  //     'PHP',
+  //     'React',
+  //     'Inertiajs',
+  //     'Git',
+  //     'Laravel',
+  //   ],
+  // },
 ];
 
 export const certificates = [

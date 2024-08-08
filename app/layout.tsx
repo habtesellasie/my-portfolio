@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Roboto } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { SiteHeader } from '@/components/site-header';
@@ -9,6 +9,11 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+const roboto = Roboto({
+  subsets: ['latin'],
+  variable: '--font-roboto',
+  weight: ['100', '300', '400', '500', '700', '900'],
+});
 
 export const metadata: Metadata = {
   // title: 'My Portfolio',
@@ -64,39 +69,15 @@ export default function RootLayout({
       <body
         className={cn(
           'min-h-screen bg-background font-sans antialiased',
-          inter.variable
+          inter.variable,
+          roboto.variable
         )}
       >
         <Providers>
           <div className='relative flex min-h-dvh flex-col bg-background'>
-            <SiteHeader />
+            <div className='bg-[#61DBFB] -left-10 -top-10 md:size-[450px] size-[300px] blur-[100px]  md:blur-[200px] -z-2 rounded-full xl:fixed absolute opacity-60'></div>
+            <div className='bg-[#ff7790] -right-10 -bottom-10 md:size-[450px] size-[300px] blur-[100px]  md:dark:blur-[400px] md:blur-[150px] -z-2 rounded-full xl:fixed absolute dark:opacity-40 opacity-25'></div>
             <main className='flex-1'>{children}</main>
-            <footer className='border-t-gray-500 border-t-[1px] mt-4 w-full py-4'>
-              <div className='flex container justify-between'>
-                <div className='flex gap-3'>
-                  <Link
-                    href={siteConfig.links.upwork}
-                    target='_blank'
-                    className='text-gray-400 font-bold underline hover:no-underline transition'
-                  >
-                    Upwork
-                  </Link>
-                  <Link
-                    href={siteConfig.links.fiverr}
-                    target='_blank'
-                    className='text-gray-400 font-bold underline hover:no-underline transition'
-                  >
-                    Fiverr
-                  </Link>
-                </div>
-                <span>
-                  &copy;{' '}
-                  <span className='text-[15px]'>
-                    {new Date().getFullYear()}
-                  </span>
-                </span>
-              </div>
-            </footer>
           </div>
         </Providers>
       </body>
