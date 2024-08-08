@@ -44,11 +44,7 @@ export function SiteHeader() {
                 <span className='sr-only'>GitHub</span>
               </div>
             </Link>
-            <Link
-              href={siteConfig.links.twitter}
-              target='_blank'
-              rel='noreferrer'
-            >
+            <Link href={siteConfig.links.x} target='_blank' rel='noreferrer'>
               <div
                 className={cn(
                   buttonVariants({ variant: 'ghost' }),
