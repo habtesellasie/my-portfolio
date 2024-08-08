@@ -205,7 +205,7 @@ export default function Home() {
         </section>
         <div className='xl:mt-24 mt-6 xl:mb-[5.4rem] mb-8'>
           <h2 className='text-2xl font-black mb-4 xl:hidden'>About</h2>
-          <p className='max-w-2xl text-muted-foreground sm:text-lg '>
+          <p className='max-w-3xl text-muted-foreground sm:text-lg '>
             I love creating robust and dynamic web applications. With a solid
             background in full stack development and coding in my DNA, I aim to
             deliver high-quality solutions that meet user needs and business
@@ -274,7 +274,7 @@ export default function Home() {
               me about work rather than to DM me.
             </span>
           </p>
-          <section className='flex-1 py-4 flex flex-col space-y-6 max-w-2xl xl:mt-32 mt-12'>
+          <section className='flex-1 py-4 flex flex-col space-y-6 max-w-3xl xl:mt-32 mt-12'>
             <h2 className='text-2xl font-black'>Projects</h2>
             <div className='sm:space-y-16 space-y-8'>
               {projects.map((project, projIndex) => {
