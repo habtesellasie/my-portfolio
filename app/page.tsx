@@ -69,7 +69,7 @@ export default function Home() {
                     havecodesoft@gmail.com
                   </Link>
                 </div> */}
-                <nav className='flex items-center gap-4 xl:-ml-1 xl:mt-0 mt-4'>
+                <nav className='flex items-center gap-4 xl:-ml-1 mt-4 xl:mt-6'>
                   <Link
                     href={siteConfig.links.github}
                     target='_blank'
