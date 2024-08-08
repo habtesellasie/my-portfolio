@@ -16,8 +16,6 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  // title: 'My Portfolio',
-  // description:'Welcome to my portfolio! Here, you can explore my skills, projects, and certifications.',
   title: siteConfig.name,
   description: siteConfig.description,
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL ?? siteConfig.url),
@@ -74,10 +72,12 @@ export default function RootLayout({
         )}
       >
         <Providers>
-          <div className='relative flex min-h-dvh flex-col bg-background'>
-            <div className='bg-[#61DBFB] -left-10 -top-10 md:size-[450px] size-[300px] blur-[100px]  md:blur-[200px] -z-2 rounded-full xl:fixed absolute opacity-60'></div>
-            <div className='bg-[#ff7790] -right-10 -bottom-10 md:size-[450px] size-[300px] blur-[100px]  md:dark:blur-[400px] md:blur-[150px] -z-2 rounded-full xl:fixed absolute dark:opacity-40 opacity-25'></div>
-            <main className='flex-1'>{children}</main>
+          <div className='min-h-dvh flex-col bg-background'>
+            <div className='relative h-fit'>
+              <div className='bg-[#61DBFB] xl:fixed absolute -left-10 -top-10 md:size-[450px] sm:size-[300px] size-[230px] blur-[100px]  md:blur-[200px] -z-2 rounded-full opacity-60'></div>
+              <div className='bg-[#ff7790] xl:fixed absolute sm:-right-10 sm:-bottom-10 right-0 bottom-0 md:size-[450px] sm:size-[300px] size-[230px] blur-[100px]  md:dark:blur-[400px] md:blur-[150px] -z-2 rounded-full dark:opacity-40 opacity-25'></div>
+              <main>{children}</main>
+            </div>
           </div>
         </Providers>
       </body>

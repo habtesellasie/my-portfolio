@@ -8,9 +8,9 @@ import { ModeToggle } from '@/components/mode-toggle';
 export default function Home() {
   return (
     <>
-      <div className='relative flex flex-col xl:flex-row container mx-auto gap-10 xl:items-stretch items-center'>
+      <div className='relative flex flex-col xl:flex-row sm:container mx-auto gap-10 xl:items-stretch items-center'>
         <section className='space-y-6 xl:sticky top-0 h-fit'>
-          <div className='relative flex flex-col gap-4 bg-transparent'>
+          <div className='relative flex flex-col gap-4 bg-transparent sm:px-0 px-4'>
             <div className='relative z-2 flex flex-col justify-between xl:h-[90vh] xl:h-[90dvh] xl:h-[90svh] xl:pt-[6.5rem] pt-10'>
               <div>
                 <div className='size-[6.25rem] rounded-full overflow-hidden mb-4'>
@@ -53,23 +53,7 @@ export default function Home() {
               </div>
 
               <div>
-                {/* <div className='pb-4 space-y-2'>
-                  <Link
-                    className='flex items-center gap-2 transition hover:text-blue-500'
-                    href='tel:0945596959'
-                  >
-                    <PhoneCall size={20} />
-                    +251 945 596 959
-                  </Link>
-                  <Link
-                    className='flex items-center gap-2 transition hover:text-blue-500'
-                    href='mailto:havecodesoft@gmail.com'
-                  >
-                    <Mail size={20} />
-                    havecodesoft@gmail.com
-                  </Link>
-                </div> */}
-                <nav className='flex items-center gap-4 xl:-ml-1 mt-4 xl:mt-6'>
+                <nav className='flex flex-wrap items-center gap-4 xl:-ml-1 mt-4 xl:mt-6'>
                   <Link
                     href={siteConfig.links.github}
                     target='_blank'
@@ -109,8 +93,8 @@ export default function Home() {
                       fill='currentColor'
                       strokeWidth='0'
                       viewBox='0 0 496 512'
-                      height='28px'
-                      width='28px'
+                      height='27px'
+                      width='27px'
                       xmlns='http://www.w3.org/2000/svg'
                       data-darkreader-inline-fill=''
                       data-darkreader-inline-stroke=''
@@ -203,7 +187,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className='xl:mt-24 mt-6 xl:mb-[5.4rem] mb-8'>
+        <div className='xl:mt-24 mt-6 xl:mb-[5.4rem] mb-8 sm:px-0 px-4'>
           <h2 className='text-2xl font-black mb-4 xl:hidden'>About</h2>
           <p className='xl:max-w-3xl max-w-2xl text-muted-foreground sm:text-lg '>
             I love creating robust and dynamic web applications. With a solid
