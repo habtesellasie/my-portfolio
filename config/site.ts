@@ -44,17 +44,17 @@ export const projects = [
     mobileImage: 'https://i.ibb.co/N3FdP1J/Donkey-tube-mobile.png',
     usedTechnology: ['SCSS', 'React', 'Youtube API', 'Git'],
   },
-  {
-    title: 'Miran Creative Studios',
-    description:
-      'The Miran Creative Studios website showcases services and expertise with a trendy interface. Built with Next.js and Tailwind CSS, it aims to redefine creative services.',
-    link: 'https://miran.et',
-    desktopImage:
-      'https://i.ibb.co/LdQwPvv/Screenshot-2024-08-07-at-8-47-31-in-the-evening.png',
-    mobileImage:
-      'https://i.ibb.co/b5BXg9H/Screenshot-2024-08-07-at-8-48-13-in-the-evening.png',
-    usedTechnology: ['Tailwind', 'NextJS', 'Git'],
-  },
+  // {
+  //   title: 'Miran Creative Studios',
+  //   description:
+  //     'The Miran Creative Studios website showcases services and expertise with a trendy interface. Built with Next.js and Tailwind CSS, it aims to redefine creative services.',
+  //   link: 'https://miran.et',
+  //   desktopImage:
+  //     'https://i.ibb.co/LdQwPvv/Screenshot-2024-08-07-at-8-47-31-in-the-evening.png',
+  //   mobileImage:
+  //     'https://i.ibb.co/b5BXg9H/Screenshot-2024-08-07-at-8-48-13-in-the-evening.png',
+  //   usedTechnology: ['Tailwind', 'NextJS', 'Git'],
+  // },
   {
     title: 'Interactive Code Playground',
     description:
