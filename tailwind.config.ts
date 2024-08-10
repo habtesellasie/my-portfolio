@@ -20,8 +20,8 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans],
-        roboto: ['var(--font-roboto)', ...fontFamily.sans],
+        sans: ['var(--font-sans)', 'sans-serif'],
+        roboto: ['var(--font-roboto)', 'sans-serif'],
       },
       // container: '1328px',
       colors: {

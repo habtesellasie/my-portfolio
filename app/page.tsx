@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { Download, Mail, MoveRight, PhoneCall } from 'lucide-react';
 import { Icons } from '@/components/icons';
 import { ModeToggle } from '@/components/mode-toggle';
+import Tools from '@/components/Tools';
 
 export default function Home() {
   return (
@@ -42,6 +43,8 @@ export default function Home() {
                     problems into elegant digital solutions that drive success.
                   </span>
                 </p>
+
+                <Tools />
 
                 <Link
                   href='https://i.ibb.co/7kzqqMt/Fullstack-Developer-Resume.jpg'
@@ -256,6 +259,16 @@ export default function Home() {
                 email
               </Link>{' '}
               me about work rather than to DM me.
+            </span>
+            <span className='inline-block mt-4'>
+              I&apos;m currently exploring the{' '}
+              <Link
+                href='https://create.t3.gg/'
+                target='_blank'
+                className='dark:text-white text-black font-medium hover:underline'
+              >
+                T3 stack.
+              </Link>
             </span>
           </p>
           <section className='flex-1 py-4 flex flex-col space-y-6 xl:max-w-3xl max-w-2xl xl:mt-32 mt-12'>
